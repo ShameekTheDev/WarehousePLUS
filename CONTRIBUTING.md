@@ -94,7 +94,7 @@ Optional but 🔥:
 - Screenshots / screen recordings
 - Clear commit messages
 
-## Pull Request Rules
+## 🔁 Pull Request Rules
 
 - One feature or fix per PR
 - Keep PRs focused and readable
