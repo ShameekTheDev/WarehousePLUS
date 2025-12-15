@@ -1,2 +1,2 @@
-<img width="1197" height="375" alt="Frame@1 5x" src="https://github.com/user-attachments/assets/c4a24833-a79b-4da1-9477-9de40e417810" />
+<img width="798" height="250" alt="Frame" src="https://github.com/user-attachments/assets/a53a2235-07c7-4e7f-81f4-46cc609aa6d1" />
 <h2>[Experent] Semi-Backend Spreadsheet Powered Database System.</h2> 
