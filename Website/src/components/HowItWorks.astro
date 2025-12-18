@@ -1,0 +1,64 @@
+---
+import Container from "./Container.astro";
+---
+
+<div id="how-it-works" class="relative py-20">
+    <Container>
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-white md:text-4xl">
+                How It Works
+            </h2>
+            <p class="mt-4 text-gray-300">
+                Simple, transparent, and developer-friendly workflow.
+            </p>
+        </div>
+        <div class="grid gap-8 md:grid-cols-3">
+            <div
+                class="group relative p-8 bg-gray-800 rounded-3xl border border-gray-700 shadow-none transition hover:border-cyan-500/50"
+            >
+                <div
+                    class="text-primary text-5xl font-bold mb-6 opacity-50 group-hover:opacity-100 transition"
+                >
+                    01
+                </div>
+                <h3 class="text-xl font-semibold text-white mb-3">
+                    Connect Sheet
+                </h3>
+                <p class="text-gray-300">
+                    Link your existing Google Sheet. No migration needed. Your
+                    sheet remains the source of truth.
+                </p>
+            </div>
+
+            <div
+                class="group relative p-8 bg-gray-800 rounded-3xl border border-gray-700 shadow-none transition hover:border-cyan-500/50"
+            >
+                <div
+                    class="text-primary text-5xl font-bold mb-6 opacity-50 group-hover:opacity-100 transition"
+                >
+                    02
+                </div>
+                <h3 class="text-xl font-semibold text-white mb-3">Sync Data</h3>
+                <p class="text-gray-300">
+                    Warehouse+ transforms your sheet data into a
+                    high-performance JSON API layer automatically.
+                </p>
+            </div>
+
+            <div
+                class="group relative p-8 bg-gray-800 rounded-3xl border border-gray-700 shadow-none transition hover:border-cyan-500/50"
+            >
+                <div
+                    class="text-primary text-5xl font-bold mb-6 opacity-50 group-hover:opacity-100 transition"
+                >
+                    03
+                </div>
+                <h3 class="text-xl font-semibold text-white mb-3">Build UI</h3>
+                <p class="text-gray-300">
+                    Consume the data in your Next.js app with full type safety
+                    and zero backend latency.
+                </p>
+            </div>
+        </div>
+    </Container>
+</div>
